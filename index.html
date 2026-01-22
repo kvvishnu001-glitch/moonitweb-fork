@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-bs-theme="light">
   <head>
     <!-- Required meta tags -->
@@ -50,7 +50,7 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./assets/css/theme.min.css" />
-
+    <link rel="stylesheet" href="./css/index.css" />
     <title>MoonITSolutions</title>
   </head>
 
@@ -445,7 +445,7 @@
                   >our process</small
                 >
                 <h2 class="mt-2 mb-0">
-                  From idea to impact—MoonIT builds what matters ko
+                  From idea to impact—MoonIT builds what matters
                 </h2>
               </div>
             </div>
@@ -562,7 +562,7 @@
         </div>
       </section>
 
-      <section class="py-xl-9 py-5 bg-light">
+      <section class="py-xl-9 py-5 bg-primary-subtle">
         <div class="container">
           <div class="row">
             <div class="col-xl-8 offset-xl-2 col-md-8 offset-md-2">
@@ -576,9 +576,19 @@
               class="row flex-nowrap pb-5 me-5 me-lg-0 justify-content-center"
             >
               <div class="col-lg-6 col-md-6">
-                <div class="card shadow-sm h-100">
+                <div class="card shadow-sm h-100 testimonial-card">
                   <div class="card-body p-lg-5">
-                    <p class="mb-0">
+                    <div class="testimonial-quote">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text mb-0">
                       I have been involved in big projects for major
                       corporations and the team at MoonIT is the best that I
                       have worked with. They are timely, efficient and use best
@@ -586,17 +596,32 @@
                       along quickly and keep us agile enough to be competitive.
                       I would recommend them to anyone.
                     </p>
-                    <div class="mt-4">
-                      <h5 class="mb-0">Joshua Smith</h5>
-                      <small>Architect</small>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar bg-primary-gradient">
+                        JS
+                      </div>
+                      <div class="testimonial-info">
+                        <h5>Joshua Smith</h5>
+                        <small>Architect</small>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-md-6">
-                <div class="card shadow-sm h-100">
+                <div class="card shadow-sm h-100 testimonial-card">
                   <div class="card-body p-lg-5">
-                    <p class="mb-0">
+                    <div class="testimonial-quote">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="testimonial-text mb-0">
                       I just wanted to say that you guys have become a valuable
                       part of our team, and I don't remember how I got by
                       without you. I'm really glad we are working together. It's
@@ -604,9 +629,14 @@
                       work and deliver excellent service. So thanks for being
                       awesome.
                     </p>
-                    <div class="mt-4">
-                      <h5 class="mb-0">Parker Ence</h5>
-                      <small>President</small>
+                    <div class="testimonial-author">
+                      <div class="testimonial-avatar bg-primary-gradient">
+                        PE
+                      </div>
+                      <div class="testimonial-info">
+                        <h5>Parker Ence</h5>
+                        <small>President</small>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -618,27 +648,26 @@
       <!--Success stories-->
 
       <!--Modern tech start-->
-      <section class="py-xl-9 py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 offset-xl-2 col-md-12 col-12">
-              <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn">
-                <small class="text-uppercase ls-md fw-semibold"></small>
-                <h2 class="my-3">Our Clients</h2>
-                <p class="mb-0 text-body">
-                  We work with cutting-edge technologies designed to solve your
-                  product requirements. Focus on finding solutions for your
-                  business needs while we handle the technical aspect.
-                </p>
-              </div>
+      <section class="py-xl-9 py-5 overflow-hidden">
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-md-12 col-12">
+            <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn">
+              <small class="text-uppercase ls-md fw-semibold"></small>
+              <h2 class="my-3">Our Clients</h2>
+              <p class="mb-0 text-body">
+                We work with cutting-edge technologies designed to solve your
+                product requirements. Focus on finding solutions for your
+                business needs while we handle the technical aspect.
+              </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
-              <div
-                class="row row-cols-lg-5 row-cols-md-4 row-cols-2 justify-content-center g-5"
-              >
-                <div class="col align-items-center" data-cue="slideInDown">
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="marquee-container">
+              <div class="marquee-content">
+                <!-- First set of logos -->
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/1.png"
@@ -647,10 +676,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/2.png"
@@ -659,10 +685,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/3.png"
@@ -671,10 +694,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/8.png"
@@ -683,10 +703,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/4.png"
@@ -695,10 +712,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/5.png"
@@ -707,10 +721,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/6.png"
@@ -719,10 +730,7 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/7.png"
@@ -731,10 +739,89 @@
                     />
                   </figure>
                 </div>
-                <div
-                  class="col align-items-center d-flex justify-content-center"
-                  data-cue="slideInDown"
-                >
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/9.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <!-- Duplicate set for seamless loop -->
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/1.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/2.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/3.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/8.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/4.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/5.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/6.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
+                  <figure class="text-center mb-0">
+                    <img
+                      src="./assets/images/clients/7.png"
+                      alt="logo"
+                      class="img-fluid"
+                    />
+                  </figure>
+                </div>
+                <div class="marquee-item">
                   <figure class="text-center mb-0">
                     <img
                       src="./assets/images/clients/9.png"
@@ -751,23 +838,21 @@
 
       <!--Speak with expert start-->
       <section class="my-9">
-        <div class="container">
-          <div class="row line-pattern bg-primary-gradient rounded-3 p-7 g-0">
-            <div class="col-lg-12 z-1">
-              <div class="text-center py-md-7">
-                <h2 class="h1 text-white-stable">
-                  Scale faster. Secure deeper. Transform now.
-                </h2>
-                <p class="text-white-50 px-lg-7 mb-5">
-                  No matter where you are in your digital journey, we provide
-                  the roadmap and the muscle. We modernize systems, streamline
-                  architecture, and build infrastructure that scales with your
-                  ambition.
-                </p>
-                <a href="./contacts.html" class="btn btn-dark"
-                  >Ready to build what’s next?</a
-                >
-              </div>
+        <div class="row line-pattern bg-primary-gradient p-7 g-0">
+          <div class="col-lg-12 z-1 container">
+            <div class="text-center py-md-7">
+              <h2 class="h1 text-white-stable">
+                Scale faster. Secure deeper. Transform now.
+              </h2>
+              <p class="text-white-50 px-lg-7 mb-5">
+                No matter where you are in your digital journey, we provide the
+                roadmap and the muscle. We modernize systems, streamline
+                architecture, and build infrastructure that scales with your
+                ambition.
+              </p>
+              <a href="./contacts.html" class="btn btn-dark"
+                >Ready to build what’s next?</a
+              >
             </div>
           </div>
         </div>
